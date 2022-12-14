@@ -1,0 +1,36 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_SETTINGS                            0x18003
+HID_START                               0x18004
+HID_STOP                                0x18005
+HID_LOAD_PACKET                         0x18008
+HID_SPD_VERSION                         0x18009
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_DLOADETYPE                         0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_EDT_BTN_DLG                        0x20068
+HIDD_PROPPAGE_MAIN                      0x2006A
+HIDD_PROPPAGE_LCD                       0x2006B
+HIDD_DIALOG_MODE_SETTINGS               0x20089
+HIDD_DIALOG_CALIBRATION_SETTINGS        0x2008A
+HIDD_DIALOG_NAND_SETTINGS               0x2008B
+HIDD_DLG_PAKET_SETTING                  0x200A1
+HIDD_DIALOG_BARCODE                     0x200A3
+HIDD_DIALOG_MULTI_LANG                  0x200AB
+HIDD_PROPPAGE_FLASH                     0x200AC
+HIDD_DLG_PASSWORD                       0x200B9
+HIDD_PROPPAGE_MCP                       0x200BA
+HIDD_PROPPAGE_OPTIONS                   0x200BB
+HIDD_PROPPAGE_VOL_FREQ                  0x200BC
+HIDD_COMBOX_DLG                         0x200BD
+HIDD_PROPPAGE_UART_PORT_SWITCH          0x200BE
+HIDD_PROPPAGE_CUSTOMIZATION             0x200BF
+HIDD_PROPPAGE_CUST                      0x200C0
+ 
+// Frame Controls (IDW_*) 

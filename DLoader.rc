@@ -1,0 +1,879 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DLoader.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_TOOLBAR         BITMAP                  "res\\ToolbarBmp.bmp"
+IDB_BMP_TOOLBAR_HOT     BITMAP                  "res\\ToolbarHot.bmp"
+IDB_BMP_TOOLBAR_DIS     BITMAP                  "res\\ToolbarDis.bmp"
+IDB_TB_BACKGRND         BITMAP                  "res\\tb_bkg.bmp"
+IDB_BMP_PROG_BLOCK      BITMAP                  "res\\ProgBlock.bmp"
+IDB_BMP_FOLDER          BITMAP                  "res\\folders.bmp"
+IDB_BMP_TM              BITMAP                  "res\\trademark.bmp"
+IDB_BITMAP_START        BITMAP                  "res\\Start.bmp"
+IDB_BMP_PROG_BROWN      BITMAP                  "res\\ProgBlockBrown.bmp"
+IDB_BMP_LANG_ICON       BITMAP                  "res\\bmp_lang.bmp"
+IDB_BMP_TB_FACTORY      BITMAP                  "res\\ToolbarBmp_green.bmp"
+IDB_BMP_TB_FACTORY_HOT  BITMAP                  "res\\ToolbarHot_green.bmp"
+IDB_BMP_TB_FACTORY_DIS  BITMAP                  "res\\ToolbarDis_green.bmp"
+IDB_BMP_TB_UPGRADE      BITMAP                  "res\\ToolbarBmp_yellow.bmp"
+IDB_BMP_TB_UPGRADE_HOT  BITMAP                  "res\\ToolbarHot_yellow.bmp"
+IDB_BMP_TB_UPGRADE_DIS  BITMAP                  "res\\ToolbarDis_yellow.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_OK             ICON                    "res\\OK.ico"
+IDI_ICON_PAUSE          ICON                    "res\\Pause.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DLoader.ico"
+IDR_DLOADETYPE          ICON                    "res\\DLoaderDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_BARCODE DIALOGEX 0, 0, 152, 36
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,19,19,41,13,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Suspend",IDC_BUTTON_SUSPEND,105,19,41,13,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_BARCODE,4,3,143,13,ES_AUTOHSCROLL
+    ICON            IDI_ICON_OK,IDC_STATIC,3,17,20,20
+    ICON            IDI_ICON_PAUSE,IDC_STATIC,88,18,20,20
+END
+
+IDD_ABOUTBOX DIALOG  0, 0, 248, 85
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Spreadtrum DLoader"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,23,20,20
+    LTEXT           "Spreadtrum DLoader",IDC_STATIC_PRODUCT_NAME,40,14,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Spreadtrum Communications 2004-2009",IDC_STATIC,40,50,201,8
+    DEFPUSHBUTTON   "OK",IDOK,191,14,50,14,WS_GROUP
+    LTEXT           "Version:",IDC_STATIC,40,26,44,8
+    LTEXT           "All rights reserverd",IDC_STATIC,40,62,102,8
+    LTEXT           "Unknown",IDC_STATIC_BUILD,103,38,69,8,SS_CENTERIMAGE
+    LTEXT           "Build:",IDC_STATIC,40,38,47,8
+    LTEXT           "Unknown",IDC_STATIC_VERSION,103,26,69,8,SS_CENTERIMAGE
+END
+
+IDD_DIALOG_CALIBRATION_SETTINGS DIALOGEX 0, 0, 440, 360
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Backup"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_LIST_FRAME,13,41,411,198,0,WS_EX_STATICEDGE
+    CONTROL         "Save file to local",IDC_CHK_SAVE_TO_LOCAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,11,88,10
+    LTEXT           "Local Path:",IDC_STC_LOCAL_PATH,126,11,45,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_DC_EDT_PATH,176,7,218,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    PUSHBUTTON      "...",IDC_DC_BTN_BROWSE,403,7,22,16,NOT WS_VISIBLE
+    CONTROL         "",IDC_STC_VER_SAP,"Static",SS_WHITERECT | SS_SUNKEN | NOT WS_VISIBLE,114,5,1,22
+    GROUPBOX        "NV Item Backup",IDC_STATIC,7,30,426,220
+    GROUPBOX        "File Backup",IDC_STATIC,7,255,426,99
+    CONTROL         "List1",IDC_LST_FILE_BACKUP,"SysListView32",LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,14,268,410,78
+END
+
+IDD_PROPPAGE_MAIN DIALOGEX 0, 0, 440, 360
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Main Page"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,80,3,353,31
+    GROUPBOX        "",IDC_STATIC,7,36,426,280
+    LTEXT           "Port:",IDC_STATIC,87,16,21,8
+    LTEXT           "Baudrate:",IDC_STATIC,218,16,37,8
+    COMBOBOX        IDC_CMB_PORT,112,13,97,91,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_BAUDRATE,276,14,149,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Select All Files",IDC_CHK_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,48,80,10
+    LTEXT           "Select Product:",IDC_STC_SEL_PRD,197,49,61,8
+    COMBOBOX        IDC_CMB_PRODUCT,276,46,149,88,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_LST_PRODUCT_INFO,"SysListView32",LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,14,64,411,245,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STC_PROD_COMMENT,7,322,426,31,SS_SUNKEN
+    EDITTEXT        IDC_EDT_PRD_VERSION,18,48,173,12,ES_READONLY | NOT WS_BORDER
+    CONTROL         "Input SN",IDC_MPD_CHK_SN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,16,54,10
+    GROUPBOX        "",IDC_STATIC,7,3,69,31
+END
+
+IDD_EDT_BTN_DLG DIALOGEX 0, 0, 250, 18
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDT_TEXT,1,1,199,17,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "...",IDC_BTN_SEL,199,0,50,17
+END
+
+IDD_DLG_PAKET_SETTING DIALOG  0, 0, 252, 124
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Packet Setting"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDT_PRD_ALIAS,82,32,155,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_PRD_VER,82,51,155,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_BROWSE,221,70,16,14
+    EDITTEXT        IDC_EDT_PATH,82,70,135,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,41,102,50,16
+    PUSHBUTTON      "Cancel",IDCANCEL,158,102,50,16
+    RTEXT           "Product Version:",IDC_STC_PRD_VER,13,53,65,8
+    LTEXT           "Saving Path:",IDC_STC_SAVE_PATH,14,72,65,8
+    LTEXT           "Product Name:",IDC_STATIC,14,15,65,8
+    LTEXT           "Static",IDC_PS_STC_PRD_NANE,82,15,155,8
+    LTEXT           "Product Alias:",IDC_STATIC,14,34,65,8
+    GROUPBOX        "",IDC_STATIC,4,1,243,96
+END
+
+IDD_DIALOG_MULTI_LANG DIALOG  0, 0, 440, 360
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Multi Languages"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_DML_LST_LANG,"SysListView32",LVS_LIST | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,7,426,307
+    CONTROL         "Backup multi-language NV item",IDC_DML_CHK_BACKUP_LANG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,327,150,10
+    CTEXT           "Please Select NV file at the tab ""Main Page"".",IDC_DML_STC_TIPS,40,118,358,14
+    LTEXT           "Notice:   Double click language icon to set it default!",IDC_DML_STC_NOTICE,186,327,247,10
+END
+
+IDD_PROPPAGE_FLASH DIALOGEX 0, 0, 440, 360
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Flash Operations"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Read Flash",IDC_STATIC,7,7,426,125
+    CONTROL         "List1",IDC_FOD_LST_READ,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,18,34,406,92
+    CONTROL         "Active Read Flash",IDC_FOD_CHK_ACTIVE_READ_FLASH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,21,84,10
+    PUSHBUTTON      "Clear",IDC_FOD_BTN_DEL,374,16,50,14
+    GROUPBOX        "Erase Flash",IDC_STATIC,7,307,426,44
+    CONTROL         "Erase All Flash",IDC_FOD_CHK_ERASE_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,322,76,10
+    LTEXT           "Notice: This operation will clear all data strored in the flash including calibration.",IDC_STATIC,18,336,403,11
+    GROUPBOX        "Erase Flash",IDC_STATIC,7,136,426,82
+    CONTROL         "List1",IDC_FOD_LST_ERASE,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,18,165,406,48
+    CONTROL         "Active Erase Flash",IDC_FOD_CHK_ACTIVE_ERASE_FLASH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,151,88,10
+    PUSHBUTTON      "Clear",IDC_FOD_BTN_DELE,374,148,50,14
+    GROUPBOX        "Write Flash",IDC_STATIC,7,220,426,82
+    CONTROL         "List1",IDC_FOD_LST_WRITE,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,18,249,406,48
+    CONTROL         "Active Write Flash",IDC_FOD_CHK_ACTIVE_WRITE_FLASH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,234,88,10
+    PUSHBUTTON      "Clear",IDC_FOD_BTN_DELW,374,231,50,14
+    CONTROL         "Select All",IDC_CHECK_READFLASH_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,21,56,10
+END
+
+IDD_PROPPAGE_LCD DIALOG  0, 0, 440, 360
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "LCD Configure"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "",IDC_LCD_STC_TIPS,42,151,369,19
+    CONTROL         "List1",IDC_LCP_LST_LCD_CONFIG,"SysListView32",LVS_LIST | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,7,426,346
+END
+
+IDD_DLG_PASSWORD DIALOG  0, 0, 211, 111
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 10, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDT_PASSWORD,57,16,140,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_NEW_PASSWORD,69,48,128,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_NEW_PASSWORD2,69,66,128,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,81,90,36,14
+    PUSHBUTTON      "Reset",IDC_BTN_RESET,125,90,37,14
+    PUSHBUTTON      "Cancel",IDCANCEL,169,90,35,14
+    LTEXT           "Password:",IDC_STATIC,14,18,37,8
+    GROUPBOX        "",IDC_STATIC,7,7,197,29
+    GROUPBOX        "",IDC_STC_GP_NEW,7,36,197,50
+    LTEXT           "New Password:",IDC_STC_NEW_PW,13,50,53,8
+    LTEXT           "Input Again:",IDC_STC_NEW_PW2,13,67,49,8
+END
+
+IDD_PROPPAGE_MCP DIALOGEX 0, 0, 440, 360
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "MCP Type"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Check MCP Type",IDC_MCP_CHK_MCPTYPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,7,86,10
+    CONTROL         "List1",IDC_MCP_LST_MCP,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,28,426,325,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Add New MCP Type",IDC_MCP_BTN_ADD_MCP,359,7,74,14,NOT WS_VISIBLE | WS_DISABLED
+END
+
+IDD_PROPPAGE_OPTIONS DIALOGEX 0, 0, 440, 360
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Option",IDC_STATIC,7,7,426,35
+    CONTROL         "Repartition",IDC_DOP_REPART,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,22,100,10
+    CONTROL         "Keep Charge",IDC_DOP_CHK_KEEP_CHARGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,22,91,10
+    CONTROL         "Debug Mode",IDC_CHK_DEBUG_MODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,325,22,79,10
+    GROUPBOX        "End of download",IDC_STATIC,7,50,426,35
+    CONTROL         "Reset to Normal",IDC_DOP_RESET,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,64,100,10
+    CONTROL         "Power Off",IDC_DOP_POWER_OFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,64,100,10
+    GROUPBOX        "Read Option",IDC_STATIC,7,93,426,35
+    CONTROL         "Read MCP Type",IDC_FOD_CHK_READ_MCPTYPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,109,100,10
+    CONTROL         "Read Chip UID",IDC_CHECK_READ_CHIPUID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,109,100,10
+    GROUPBOX        "Check Option",IDC_STATIC,7,135,426,111
+    CONTROL         "Check Match",IDC_CHK_CHECK_MATCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,151,100,10
+    CONTROL         "DDR Check",IDC_CHK_DDR_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,151,61,10
+    CONTROL         "EMMC Check",IDC_CHK_EMMC_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,230,151,73,10
+    GROUPBOX        "Misc Options",IDC_STATIC,7,253,426,35,NOT WS_VISIBLE
+    CONTROL         "Enable Log",IDC_CHK_ENABLE_DL_LOG,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,17,270,89,10
+    CONTROL         "Enable Secure Boot",IDC_CHK_ENABLE_SECUREBOOT,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,130,270,100,10
+    CONTROL         "Self Refresh",IDC_CHK_SELF_REFRESH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,325,151,61,10
+    CONTROL         "Check Second Hand Memory",IDC_CHK_OLD_MEMORY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,172,134,10
+    CONTROL         "Uart Download",IDC_CHECK_UART_MODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,230,22,87,10
+    CONTROL         "Auto Comparison",IDC_CHECK_AUTO_COMPARE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,192,111,10
+    LTEXT           "Configure the program used for comparing different files",IDC_STATIC_COMPARISON_TEXT,28,208,349,8
+    EDITTEXT        IDC_EDIT_COMPARE_APP,28,221,318,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_COMPARE_APP,348,220,26,14
+END
+
+IDD_PROPPAGE_VOL_FREQ DIALOGEX 0, 0, 440, 360
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Vol-Freq Turning"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "CLK CA7 CORE (100000000 - 2000000000)",IDC_STATIC_CLK_CA7_CORE,16,20,175,12
+    LTEXT           "DDR FREQ     (100000000 - 800000000)",IDC_STATIC_DDR_FREQ,16,42,175,12
+    LTEXT           "CLK CA7 AXI  (100000000 - 800000000)",IDC_STATIC_CLK_CA7_AXI,16,64,175,12
+    LTEXT           "CLK CA7 GDB   (10000000 - 400000000)",IDC_STATIC_CLK_CA7_GDB,16,86,175,12
+    LTEXT           "CLK CA7 AHB",IDC_STATIC_CLK_CA7_AHB,16,108,175,12
+    LTEXT           "CLK CA7 APB",IDC_STATIC_CLK_CA7_APB,16,130,175,12
+    LTEXT           "CLK PUB AHB",IDC_STATIC_CLK_PUB_AHB,16,152,175,12
+    LTEXT           "CLK AON APB",IDC_STATIC_CLK_AON_APB,16,174,175,12
+    LTEXT           "DCDC ARM           (600 - 1500)",IDC_STATIC_DCDC_ARM,16,196,175,12
+    LTEXT           "DCDC CORE          (600 - 1500)",IDC_STATIC_DCDC_CORE,16,218,175,12
+    EDITTEXT        IDC_VFT_EDT_CLK_CA7_CORE,195,18,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VFT_EDT_DDR_FREQ,195,40,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VFT_EDT_CLK_CA7_AXI,195,62,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VFT_EDT_CLK_CA7_GDB,195,84,93,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_VFT_CMB_CLK_CA7_AHB,195,106,93,95,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_VFT_CMB_CLK_CA7_APB,195,126,93,95,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_VFT_CMB_CLK_PUB_AHB,195,148,93,95,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_VFT_CMB_CLK_AON_APB,195,170,93,95,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_VFT_EDT_DCDC_ARM,195,193,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VFT_EDT_DCDC_CORE,195,216,93,14,ES_AUTOHSCROLL
+    LTEXT           "This config will modify spl file, \n\nplease backup this file first if necessary!",IDC_STATIC,16,305,327,41
+    LTEXT           "DCDC MEM           (600 - 3000)",IDC_STATIC_DCDC_MEM,16,241,175,12
+    LTEXT           "DCDC GEN           (600 - 4000)",IDC_STATIC_DCDC_GEN,16,262,175,12
+    EDITTEXT        IDC_VFT_EDT_DCDC_MEM,195,237,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VFT_EDT_DCDC_GEN,195,260,93,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_VFT_CMB_DEBUG,15,279,156,187,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_VFT_EDT_DEBUG,195,279,93,14,ES_AUTOHSCROLL
+    LTEXT           "0x",IDC_STATIC_DEBUG,185,282,9,8
+    CONTROL         "",IDC_LIST_SPL_TURNING,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,307,45,115,61
+    GROUPBOX        "",IDC_STATIC_VOL_RANGE,7,6,426,296
+END
+
+IDD_COMBOX_DLG DIALOGEX 0, 0, 116, 13
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO_LIST,0,1,116,292,CBS_DROPDOWNLIST | WS_TABSTOP
+END
+
+IDD_PROPPAGE_UART_PORT_SWITCH DIALOGEX 0, 0, 440, 304
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Uart Port Switch"
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "This config will modify uboot file, \n\nplease backup this file first if necessary!",IDC_STATIC,5,256,315,27
+    CONTROL         "",IDC_LIST_UART_PORT_TURNING,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,20,21,115,61
+    GROUPBOX        "Static",IDC_STATIC_RANGE,5,7,425,242
+END
+
+IDD_PROPPAGE_CUST DIALOGEX 0, 0, 440, 305
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Customization"
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "Change CU Write to phone",IDC_CHECK_CU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,126,135,10
+    EDITTEXT        IDC_EDIT_CU,16,145,172,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_GROUP_CU,7,116,426,60
+    GROUPBOX        "Root",IDC_GROUP_ROOT,7,182,426,60
+    CONTROL         "Check Root",IDC_CHECK_ROOT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,201,65,10
+    GROUPBOX        "Bad Flash Rate",IDC_STATIC,7,10,426,60
+    CONTROL         "Check bad flash rate",IDC_CHECK_BAD_FLASH_RATE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,26,135,10
+    EDITTEXT        IDC_EDIT_BAD_FLASH_RATE,16,46,46,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,66,49,8,8
+    GROUPBOX        "",IDC_GROUP_OTHERS,7,73,426,41
+    CONTROL         "Inproduction Flag",IDC_CHECK_INPRODUCTION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,86,88,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_BARCODE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOG_CALIBRATION_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_PROPPAGE_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_EDT_BTN_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 249
+    END
+
+    IDD_DIALOG_MULTI_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_PROPPAGE_FLASH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_PROPPAGE_LCD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_DLG_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_PROPPAGE_MCP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_PROPPAGE_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_PROPPAGE_VOL_FREQ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_PROPPAGE_UART_PORT_SWITCH, DIALOG
+    BEGIN
+        RIGHTMARGIN, 403
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+
+    IDD_PROPPAGE_CUST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  49, 49
+BEGIN
+    BUTTON      ID_LOAD_PACKET
+    BUTTON      ID_SETTINGS
+    SEPARATOR
+    BUTTON      ID_START
+    BUTTON      ID_STOP
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_SPD_VERSION
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About DLoader...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 23,0,0,1
+ PRODUCTVERSION 23,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Unisoc Technologies Co., Ltd."
+            VALUE "FileDescription", "File DLoader"
+            VALUE "FileVersion", "23.0.0.1"
+            VALUE "InternalName", "DLoaderR"
+            VALUE "LegalCopyright", "Copyright (C) 2004 - 2019 Unisoc Technologies Co., Ltd."
+            VALUE "OriginalFilename", "Download"
+            VALUE "PrivateBuild", "BL0006"
+            VALUE "ProductName", "DLoaderR"
+            VALUE "ProductVersion", "23.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPPAGE_VOL_FREQ DLGINIT
+BEGIN
+    IDC_VFT_CMB_CLK_CA7_AHB, 0x403, 4, 0
+0x3632, 0x004d, 
+    IDC_VFT_CMB_CLK_CA7_AHB, 0x403, 4, 0
+0x3637, 0x004d, 
+    IDC_VFT_CMB_CLK_CA7_AHB, 0x403, 5, 0
+0x3231, 0x4d38, "\000" 
+    IDC_VFT_CMB_CLK_CA7_AHB, 0x403, 5, 0
+0x3931, 0x4d32, "\000" 
+    IDC_VFT_CMB_CLK_CA7_APB, 0x403, 4, 0
+0x3632, 0x004d, 
+    IDC_VFT_CMB_CLK_CA7_APB, 0x403, 4, 0
+0x3436, 0x004d, 
+    IDC_VFT_CMB_CLK_CA7_APB, 0x403, 4, 0
+0x3639, 0x004d, 
+    IDC_VFT_CMB_CLK_CA7_APB, 0x403, 5, 0
+0x3231, 0x4d38, "\000" 
+    IDC_VFT_CMB_CLK_PUB_AHB, 0x403, 4, 0
+0x3632, 0x004d, 
+    IDC_VFT_CMB_CLK_PUB_AHB, 0x403, 4, 0
+0x3637, 0x004d, 
+    IDC_VFT_CMB_CLK_PUB_AHB, 0x403, 5, 0
+0x3231, 0x4d38, "\000" 
+    IDC_VFT_CMB_CLK_PUB_AHB, 0x403, 5, 0
+0x3531, 0x4d33, "\000" 
+    IDC_VFT_CMB_CLK_AON_APB, 0x403, 4, 0
+0x3632, 0x004d, 
+    IDC_VFT_CMB_CLK_AON_APB, 0x403, 4, 0
+0x3637, 0x004d, 
+    IDC_VFT_CMB_CLK_AON_APB, 0x403, 4, 0
+0x3639, 0x004d, 
+    IDC_VFT_CMB_CLK_AON_APB, 0x403, 5, 0
+0x3231, 0x4d38, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "DLoader\n\nDLoade\n\n\nDLoader.Document\nDLoade Document"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BMOPR_NOTREG        "The BootModeOperation object is not registered. "
+    IDS_ATL_INIT_FAIL       "The ATL Object initialize fail."
+    IDS_NEWOPR_FAIL         "Insufficient memory."
+    IDS_CREATETHREAD_FAIL   "Create download  thread fail."
+    IDS_FILEINFO_ERROR      "The  using file( FDL, NV ,etc ) is error.  "
+    IDS_START_FAIL          "The start operate fail."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Download"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    IDS_QUIT_TEST           "Quit all running test first!"
+    IDS_DL_SETTINGS         "Download settings"
+    IDS_LOAD_SETTINGS_FAIL  "Load configure settings failed:\n"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SETTINGS             "Settings\nSettings"
+    ID_START                "Start downloading\nStart downloading"
+    ID_STOP                 "Stop downloading\nStop downloading"
+    ID_LOAD_PACKET          "Load packet\nLoad packet"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PRODUCT_INFO_COLUMN "FileID,FileName,Base1,Size1,Base2,Size2,Base3,Size3,Base4,Size4,Base5,Size5,FileType"
+    IDS_ERR_FDL_NOT_CHECKED "FDL must be checked!"
+    IDS_ERR_FILE_EMPTY      "Checked file can't be empty!"
+    IDS_NV_BKP_OPTION_COLUMN "Backup NVItem,ID"
+    IDS_NV_BKP_FLAG_REPLACE "Permit to use old %s to update new one"
+    IDS_NV_BKP_FLAG_CONTINUE "Continue if not find %s item"
+    IDS_BAUDRATE_DEFAULT    "57600,115200,230400,460800,921600"
+    IDS_ERR_LOAD_PACKET_FAIL "Load bin packet failed!"
+    IDS_ERR_FILES_NOT_EXIST "Following files do not exist or their size is zero: \n%s"
+    IDS_MULTI_LANG_TIPS     "You will see nothing until the special NV file in the "" Main Page"" is set and selected."
+    IDS_READ_FLASH_LIST_COL "SN,Base,Size,File"
+    IDS_ERR_ITEM_EMPTY      "Checked items can't be empty!"
+    IDS_LCD_TIPS            "You will see nothing until the special PS/UserImg file in the "" Main Page"" is set and selected."
+    IDS_MCP_LIST_COL        "ID(MID-DID-EID/MID-DID),Description"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VIEW_LIST_HDR       "Port,Step,Status,Progress,Time(s),MCP Type,IMEI"
+    IDS_STAGE_NONE          "Waiting"
+    IDS_STAGE_CHECK_BAUD    "Checking baudrate"
+    IDS_STAGE_CONNECT       "Connecting"
+    IDS_STAGE_ERASE_FLASH   "Erasing flash"
+    IDS_STAGE_DOWNLOAD      "Downloading..."
+    IDS_STAGE_READ          "Reading flash"
+    IDS_STAGE_RESET         "Reseting"
+    IDS_STAGE_READ_CHIPTYPE "Read chip type"
+    IDS_STAGE_READ_NVITEM   "Read NV item"
+    IDS_STAGE_CHANGE_BAUD   "Change baudrate"
+    IDS_STAGE_FINISH        "Finish"
+    IDS_STAGE_UNPLUGGED     "Unplugged"
+    IDS_STAGE_PAUSED        "Paused"
+    IDS_FILE_BACK_COLUMN    "ID,BASE,SIZE"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\DLoader.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

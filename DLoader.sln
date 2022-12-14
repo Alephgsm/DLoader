@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLoader", "DLoader.vcxproj", "{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Cust Debug|x86 = Cust Debug|x86
+		Cust Factory Debug|x86 = Cust Factory Debug|x86
+		Cust Factory Release|x86 = Cust Factory Release|x86
+		Cust Release|x86 = Cust Release|x86
+		Cust Upgrade Debug|x86 = Cust Upgrade Debug|x86
+		Cust Upgrade Release|x86 = Cust Upgrade Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Debug|x86.ActiveCfg = Cust Debug|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Debug|x86.Build.0 = Cust Debug|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Factory Debug|x86.ActiveCfg = Cust Factory Debug|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Factory Debug|x86.Build.0 = Cust Factory Debug|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Factory Release|x86.ActiveCfg = Cust Factory Release|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Factory Release|x86.Build.0 = Cust Factory Release|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Release|x86.ActiveCfg = Cust Release|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Release|x86.Build.0 = Cust Release|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Upgrade Debug|x86.ActiveCfg = Cust Upgrade Debug|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Upgrade Debug|x86.Build.0 = Cust Upgrade Debug|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Upgrade Release|x86.ActiveCfg = Cust Upgrade Release|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Cust Upgrade Release|x86.Build.0 = Cust Upgrade Release|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Template|x86.ActiveCfg = Template|Win32
+		{3D522F1D-3FD0-48DF-80CD-28A734CC9D73}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF81FF7D-62BB-425C-8FB8-16F7758711A6}
+	EndGlobalSection
+EndGlobal
